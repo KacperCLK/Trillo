@@ -1,0 +1,19 @@
+{
+  "name": "trillo",
+  "version": "1.0.0",
+  "description": "Second project by 'Advanced CSS and Sass'",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  },
+  "dependencies": {
+    "live": "^0.1.25-beta.0",
+    "live-server": "^1.2.2",
+    "server": "^1.0.39"
+  }
+}
